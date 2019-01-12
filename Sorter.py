@@ -12,7 +12,6 @@ for word in data:
 			keywordcopy = keywordcopy.replace(letter, '',1)
 			letterscorrect += 1
 		if letterscorrect == len(word):
-			print(keywordcopy)
 			enddata.append(word)
 
 print(sorted(enddata, key=str.lower))
